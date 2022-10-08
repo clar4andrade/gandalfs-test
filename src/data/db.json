@@ -1,0 +1,153 @@
+{
+    "questions" : [
+        {
+            "id" : 1, 
+            "text" : "How many hobbits appear in the movies?",
+            "answers": [
+                {"id":1, "text":"I can't there's too many of them"},
+                {"id":2, "text":"6"},
+                {"id":3, "text":"0"}
+            ]
+        },
+        {
+            "id" : 2, 
+            "text" : "What's Gandaf's name for the elfs?",
+            "answers": [
+                {"id":1, "text":"Mithrandir"},
+                {"id":2, "text":"Ian"},
+                {"id":3, "text":"Sauron"}
+            ]
+        },
+        {
+            "id" : 3, 
+            "text" : "What's the first book's name?",
+            "answers": [
+                {"id":1, "text":"The Fellowship of the Ring"},
+                {"id":2, "text":"The Lord of the Rings"},
+                {"id":3, "text":"The Hobbit"}
+            ]
+        },
+        {
+            "id" : 4, 
+            "text" : "Complete the quote: 'The one ring to .... them all'",
+            "answers": [
+                {"id":1, "text":"Rule"},
+                {"id":2, "text":"Kill"},
+                {"id":3, "text":"Sing"}
+            ]
+        },
+        {
+            "id" : 5, 
+            "text" : "Who was the King of the High Elves during the War of the Last Alliance of Elves and Men? Hint: During the first Sauron's Defeat.",
+            "answers": [
+                {"id":1, "text":"Gil-galad"},
+                {"id":2, "text":"Elrond"},
+                {"id":3, "text":"Gandalf"}
+            ]
+        },
+        {
+            "id" : 6, 
+            "text" : "Where does Galadriel is living in the third age?",
+            "answers": [
+                {"id":1, "text":"Lothlórien"},
+                {"id":2, "text":"Rivendell"},
+                {"id":3, "text":"Hobbinton"}
+            ]
+        },
+        {
+            "id" : 7, 
+            "text" : "Who is Gandalf's lest favorite Hobbit?",
+            "answers": [
+                {"id":1, "text":"Pippin"},
+                {"id":2, "text":"Frodo"},
+                {"id":3, "text":"Bilbo"}
+            ]
+        },
+        {
+            "id" : 8, 
+            "text" : "Who is Aragorn's father?",
+            "answers": [
+                {"id":1, "text":"Arathorn II"},
+                {"id":2, "text":"Isildur"},
+                {"id":3, "text":"Gandalf"}
+            ]
+        },
+        {
+            "id" : 9, 
+            "text" : "What birthday does Bilbo Baggins celebrate in the Fellowship of the Ring?",
+            "answers": [
+                {"id":1, "text":"111th"},
+                {"id":2, "text":"80th"},
+                {"id":3, "text":"40th"}
+            ]
+        },
+        {
+            "id" : 10, 
+            "text" : "Who ends up finding the Ring after Isildur is killed?",
+            "answers": [
+                {"id":1, "text":"Gollum"},
+                {"id":2, "text":"Bilbo"},
+                {"id":3, "text":"Frodo"}
+            ]
+        },
+        {
+            "id" : 11, 
+            "text" : "How many other rings of power are there?",
+            "answers": [
+                {"id":1, "text":"19"},
+                {"id":2, "text":"9"},
+                {"id":3, "text":"32"}
+            ]
+        },
+        {
+            "id" : 12, 
+            "text" : "Where does Gandalf arrange to meet Frodo and Samwise?",
+            "answers": [
+                {"id":1, "text":"Prancing Pony Inn"},
+                {"id":2, "text":"Rivendell"},
+                {"id":3, "text":"Mordor"}
+            ]
+        },
+        {
+            "id" : 13, 
+            "text" : "How many people make up The Fellowship of The Ring?",
+            "answers": [
+                {"id":1, "text":"9"},
+                {"id":2, "text":"8"},
+                {"id":3, "text":"5"}
+            ]
+        },
+        {
+            "id" : 14, 
+            "text" : "What is the name of the creature that Gandalf fights in the mines of Moria?",
+            "answers": [
+                {"id":1, "text":"Balrog"},
+                {"id":2, "text":"Uruk Hai"},
+                {"id":3, "text":"Dragon"}
+            ]
+        }
+    ],
+    "gandalf-quotes" : {
+        "the-goods": [
+            "Home is now behind you, the world is ahead.",
+            "Run, Shadowfax. Show us the meaning of haste",
+            "No, the journey doesn't end here.",
+            "You are not alone in this fight. Light the Beacons.",
+            "Hope is kindled",
+            "Stand to your post, FIGHT!",
+            "Fight! Fight for the last man! Fight for your lives!",
+            "Send these foul beasts into the abyss."
+        ],
+        "the-means": [
+            "In fact, it's better if you don't speak at all, Peregrin Took",
+            "You've been sitting quietly for far too long!",
+            "Fool of a Took",
+            "Throw yourself in next time and rid us of your stupidity",
+            "I did not pass through fire and death to bandy crooked words with a witless worm",
+            "Of all the inquisitive Hobbits, Peregrin Took, you are the worst.",
+            "This is a serious journey, not a hobbit walking-party."
+        ]
+    }
+
+}
+
