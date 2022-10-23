@@ -1,26 +1,18 @@
 import './App.css';
+import { Routes, Route} from 'react-router-dom';
+import Results from './Results';
+import Root from './components/Root';
 import { useState } from 'react';
-import Home from './components/Home'
-import Question from './components/Question';
 
 function App() {
 
-  const [questionPage, setQuestionPage] = useState(false);
-  const [turn, setTurn] = useState(0);
+  const [results, setResults] = useState(0);
 
   return (
-    <>
-      {questionPage 
-      ? <Question questionPage={questionPage} turns={turn} changeTurn={setTurn} /> 
-      : <>
-          <Home /> 
-          <button onClick={() => {
-            setQuestionPage(true);
-            setTurn(turn +1);
-          }}>OK</button>
-        </>
-      }
-    </>
+    <Routes>
+      <Route path='/' exact element={<Root results={results} setResults={setResults} />} />
+      <Route path='/results' element={<Results results={results} />} />
+    </Routes>
   );
 }
 

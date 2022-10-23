@@ -1,5 +1,8 @@
+import { useNavigate } from 'react-router-dom';
 
-const Answers = ({question, changeTurn, turn}) => {
+const Answers = ({question, changeTurn, turn, setResults, results}) => {
+
+    const navigate = useNavigate();
 
     const disorder = (array) => {
         const copy = [...array];
@@ -13,16 +16,29 @@ const Answers = ({question, changeTurn, turn}) => {
     };
 
     const handleCorrectAnswer = (key) => {
-        if(key !== 3) {
+        if(key === 1) {
             changeTurn(turn +1);
-        } else if (key ===3 | turn > 7) {
-            console.log('YOU SHALL NOT PASS!')
-    
+            setResults(results +15);
+        } else if (key === 2) {
+            changeTurn(turn +1);
+            setResults(results +10);
+        } else if (key === 3) {
+            console.log('YOU SHALL NOT PASS!');
+            setResults(0);
+            navigate('/results');
+        } 
+    }
+
+    const handleTestEnd = (turn) => {
+        if(turn > 7 ) {
+            navigate('/results');
         }
     }
 
     let answerList = question.answers;
     const disordered = disorder(answerList);
+
+    handleTestEnd(turn);
      
     return (
         <>
